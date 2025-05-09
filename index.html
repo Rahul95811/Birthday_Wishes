@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="audio-control">
+        <button id="audioToggle" class="audio-btn">
+            <span id="audioIcon">🔊</span>
+        </button>
+        <audio id="bgMusic" loop autoplay>
+            <source src="happy-birthday-314197.mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+    <div class="gift-landing" id="giftLanding">
+        <img src="https://pngimg.com/uploads/gift/gift_PNG5973.png" alt="Gift Box" class="gift-img" id="giftImg">
+        <div class="open-text">Open your advance birthday surprise!</div>
+    </div>
+
+    <div class="name-modal" id="nameModal" style="display:none;">
+        <form id="nameForm" class="name-form" autocomplete="off">
+            <label for="nameInput" class="name-label">What's your beautiful name?</label>
+            <input type="text" id="nameInput" class="name-input" required autofocus />
+            <button type="submit" class="name-ok-btn">OK</button>
+        </form>
+    </div>
+    <div class="container" id="mainContent" style="display:none;">
+        <div class="panda-section">
+            <div class="panda-img-wrapper">
+                <img src="https://pngimg.com/uploads/panda/panda_PNG16.png" alt="Panda" class="panda-img">
+            </div>
+            <h1 class="birthday-title">Advance Happy Birthday, <span id="personName">Nidhi</span>!</h1>
+        </div>
+        <div class="special-card">
+            <div class="card-header">Do you know what makes today extra special?</div>
+            <div class="card-body">
+                It's almost your birthday!<br><br>
+                Today, I wish you a year filled with laughter, love, and unforgettable moments. 🥳<br><br>
+                Remember, you deserve every happiness in the world. Celebrate big and enjoy every moment!
+                I love you AMMA ❤
+            </div>
+            <button class="next-btn">Next</button>
+        </div>
+    </div>
+
+    <div class="celebrate-modal" id="celebrateModal" style="display:none;">
+        <div class="celebrate-card">
+            <div class="celebrate-img-wrapper">
+                <img src="https://pngimg.com/uploads/teddy_bear/teddy_bear_PNG104.png" alt="Teddy Bear" class="celebrate-img">
+            </div>
+            <div class="celebrate-message"><span id="celebrateName">Nidhi</span>, How about we celebrate your birthday in advance?</div>
+            <div class="celebrate-choice">Your choice is:</div>
+            <button class="celebrate-btn celebrate-yes">Absolutely, let's celebrate! 🎉</button>
+        </div>
+    </div>
+
+    <div class="carousel-section" id="carouselSection" style="display:none;">
+        <div class="carousel-container">
+            <div class="carousel-title">Advance Happy Birthday</div>
+            <div class="carousel" id="carousel3D">
+                <img src="C:\Users\rahul\OneDrive\Desktop\projects\birthday wishes\1.jpg" alt="1" class="carousel-img">
+                <img src="C:\Users\rahul\OneDrive\Desktop\projects\birthday wishes\2.jpg" alt="2" class="carousel-img">
+                <img src="C:\Users\rahul\OneDrive\Desktop\projects\birthday wishes\3.jpg" alt="3" class="carousel-img">
+                <img src= "C:\Users\rahul\OneDrive\Desktop\projects\birthday wishes\4.jpg"alt="4" class="carousel-img">
+                <img src="C:\Users\rahul\OneDrive\Desktop\projects\birthday wishes\5.jpg" alt="5" class="carousel-img">
+                <img src= "C:\Users\rahul\OneDrive\Desktop\projects\birthday wishes\6.jpg"alt="6" class="carousel-img">
+                <img src= "C:\Users\rahul\OneDrive\Desktop\projects\birthday wishes\7.jpg"alt="7" class="carousel-img">
+                <img src= "C:\Users\rahul\OneDrive\Desktop\projects\birthday wishes\8.jpg" alt="8" class="carousel-img">
+            </div>
+            <div class="carousel-base"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
